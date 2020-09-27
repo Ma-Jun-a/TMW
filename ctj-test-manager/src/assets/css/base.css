@@ -1,0 +1,13 @@
+@import "normalize.css";
+@import "bootstrap.min.css";
+/*:root {*/
+/*    height: auto;*/
+/*}*/
+body {
+  background: var(--light);
+  font-family: var(--font-family-sans-serif);
+}
+span {
+  color: var(--white);
+
+}

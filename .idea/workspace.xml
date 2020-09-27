@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a71734d-23ee-48db-a4c3-cef61a251718" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/TMW.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/assets/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/assets/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/common/const.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/common/mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/common/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/components/common/Baritem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/components/common/Narbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/components/common/Vertical.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/network/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/network/myaxios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/network/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/views/Api/Api.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/views/Home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/views/Login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/views/Project/Project.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/views/Results/Results.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/src/views/Scripts/Scripts.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctj-test-manager/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1htbBPxduoOUZ6azggEC9wZYqw2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../学习资料/vue/lean_vue" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\tester_manage\TMW\ctj-test-manager\src\views\Scripts" />
+      <recent name="D:\tester_manage\TMW\ctj-test-manager\src\views\Login" />
+      <recent name="D:\tester_manage\TMW\ctj-test-manager\src\views\Home" />
+      <recent name="D:\tester_manage\TMW\ctj-test-manager\src\views\Project" />
+      <recent name="D:\tester_manage\TMW\ctj-test-manager\src\views\Api" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\tester_manage\TMW\ctj-test-manager\src\assets\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a71734d-23ee-48db-a4c3-cef61a251718" name="Default Changelist" comment="" />
+      <created>1600833199414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600833199414</updated>
+      <workItem from="1600833200539" duration="15190000" />
+      <workItem from="1600910215506" duration="22236000" />
+      <workItem from="1600996556024" duration="12455000" />
+      <workItem from="1601114633729" duration="2421000" />
+      <workItem from="1601172147445" duration="567000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600844783641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600844783641" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1601114962452">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601114962452" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600997146703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600997146703" />
+  </component>
+</project>
