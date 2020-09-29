@@ -1,4 +1,4 @@
-const webpack = require("webpack")
+
 
 module.exports = {
   configureWebpack: {
@@ -11,15 +11,15 @@ module.exports = {
         'views': '@/views'
       }
     },
-    plugins: [
-      // 配置 jQuery 插件的参数
-      new webpack.ProvidePlugin({
-        $: 'jquery',
-        jQuery: 'jquery',
-        'window.jQuery': 'jquery',
-        Popper: ['popper.js', 'default']
-      })
-    ]
+    // plugins: [
+    //   // 配置 jQuery 插件的参数
+    //   new webpack.ProvidePlugin({
+    //     $: 'jquery',
+    //     jQuery: 'jquery',
+    //     'window.jQuery': 'jquery',
+    //     Popper: ['popper.js', 'default']
+    //   })
+    // ]
   },
 
     // // options...
