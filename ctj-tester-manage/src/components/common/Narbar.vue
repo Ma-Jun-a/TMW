@@ -1,36 +1,80 @@
 <template>
   <div id="Narbar"  >
-    <!-- Just an image -->
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        <img src="../../assets/img/icon.jpg" width="30" height="30" alt="" loading="lazy">
-      </a>
-    </nav>
+    <el-row class="tac">
+      <el-col :span="12">
 
-    <nav class="nav flex-column">
-      <a class="nav-link  active" ><Baritem class="Baritem" @itemclick="pathlink('/home')"> <span>home</span> </Baritem></a>
-      <a class="nav-link"  ><Baritem class="Baritem"  @itemclick="pathlink('/project')"> <span>project</span> </Baritem></a>
-      <a class="nav-link" ><Baritem class="Baritem"  @itemclick="pathlink('/api')"> <span>api</span> </Baritem></a>
-      <a class="nav-link" ><Baritem class="Baritem"  @itemclick="pathlink('/scripts')"> <span>scripts</span> </Baritem></a>
-      <a class="nav-link disabled"  tabindex="-1" aria-disabled="true">Disabled</a>
-    </nav>
+        <el-menu
+            default-active="2"
+            class="el-menu-vertical-demo"
+            @open="handleOpen(1)"
+            @close="handleClose"
+            background-color="#545c64"
+            text-color="#fff"
+            active-text-color="#ffd04b"
+            router
+            :default-openeds="openindex">
+
+
+
+        >
+          <el-submenu index="1">
+            <template slot="title">
+              <i class="el-icon-location"></i>
+              <span>测试管理</span>
+            </template>
+            <el-menu-item-group>
+              <el-menu-item index="/project" active-text-color="#ffd04b">项目管理</el-menu-item>
+              <el-menu-item index="/api">接口管理</el-menu-item>
+              <el-menu-item index="/scripts">脚本管理</el-menu-item>
+              <el-menu-item index="/results">测试结果</el-menu-item>
+            </el-menu-item-group>
+          </el-submenu>
+          <el-menu-item index="2">
+            <i class="el-icon-menu"></i>
+            <span slot="title">用户管理</span>
+          </el-menu-item>
+          <el-menu-item index="3">
+            <i class="el-icon-menu"></i>
+            <span slot="title">测试结果</span>
+          </el-menu-item>
+          <el-menu-item index="4">
+            <i class="el-icon-setting"></i>
+            <span slot="title">测试环境</span>
+          </el-menu-item>
+
+        </el-menu>
+      </el-col>
+    </el-row>
 
   </div>
 </template>
 
 <script>
-import Baritem from "@/components/common/Baritem";
+// import Baritem from "@/components/common/Baritem";
 
 export default {
   name: "Narbar",
+  data() {
+    return {
+      openindex: ["1"],
+    }
+  },
   components: {
-    Baritem
+    // Baritem
   },
   methods: {
     pathlink(item) {
       this.$router.push(item)
+    },
+    handleOpen(key, keyPath) {
+
+        console.log(key, keyPath);
+      },
+    handleClose(key, keyPath) {
+        console.log(key, keyPath);
+      }
     }
-  }
+
 }
 </script>
 
@@ -38,20 +82,6 @@ export default {
 
 @import "../../assets/css/base.css";
 
-.Baritem {
-  padding-left: 0px;
-}
-.nav-link {
-  padding-left: 0px;
-  margin: auto 10px;
 
-}
-.flex-column {
-  background-color: #004085;
-  margin: auto 10px;
-}
-span {
-  color: #0b2e13;
-}
 
 </style>
